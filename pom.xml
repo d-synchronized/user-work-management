@@ -13,12 +13,12 @@
 	</properties>
 
 	<modules>
-		<module>user-task-service</module>
-		<module>user-service</module>
+		<module>commons-module</module>
 		<module>user-task-db-service</module>
 		<module>user-db-service</module>
+		<module>user-task-service</module>
+		<module>user-service</module>
 		<module>registry-service</module>
-		<module>commons-module</module>
 	</modules>
 
 	<repositories>
@@ -37,6 +37,12 @@
 
 	<dependencyManagement>
 		<dependencies>
+			<dependency>
+				<groupId>com.threaddynamics</groupId>
+				<artifactId>commons-module</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-web</artifactId>
