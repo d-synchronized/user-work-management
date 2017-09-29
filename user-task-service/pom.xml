@@ -10,4 +10,10 @@
 	<artifactId>user-task-service</artifactId>
 	<name>USER WORK MANAGEMENT : TASK SERVICE</name>
 
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+	</dependencies>
 </project>

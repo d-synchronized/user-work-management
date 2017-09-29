@@ -18,6 +18,8 @@
 		<module>user-task-db-service</module>
 		<module>user-db-service</module>
 		<module>registry-service</module>
+		<module>commons</module>
+		<module>commons-module</module>
 	</modules>
 
 	<repositories>
