@@ -10,6 +10,10 @@
 	<artifactId>user-task-service</artifactId>
 	<name>USER WORK MANAGEMENT : TASK SERVICE</name>
 
+	<properties>
+		<java.version>1.8</java.version>
+	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>com.threaddynamics</groupId>
