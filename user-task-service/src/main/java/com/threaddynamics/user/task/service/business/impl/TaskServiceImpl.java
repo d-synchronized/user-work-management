@@ -9,6 +9,7 @@ import com.threaddynamics.user.task.service.business.TaskService;
 public class TaskServiceImpl implements TaskService {
 
 	public TaskDto fetchTaskDetails() {
+		System.out.println("*********Task Service Initiated*****");
 		return null;
 	}
 

@@ -13,8 +13,11 @@ import org.springframework.web.bind.annotation.RestController;
 import com.threaddynamics.commons.dto.TaskDto;
 import com.threaddynamics.user.task.service.business.TaskService;
 
+import io.swagger.annotations.Api;
+
 @RestController
 @RequestMapping(API_BASE_URI + API_VERSION + "/task")
+@Api(value = "Task Resource Endpoints")
 public class TaskController {
 	
 	@Autowired
