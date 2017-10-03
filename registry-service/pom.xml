@@ -9,10 +9,6 @@
 	<artifactId>registry-service</artifactId>
 	<name>USER WORK MANAGEMENT : REGISTRY SERVICE</name>
 
-	<properties>
-		<java.version>1.8</java.version>
-	</properties>
-
 	<dependencies>
 		<dependency>
 			<groupId>com.threaddynamics</groupId>
@@ -37,6 +33,11 @@
 
 	<build>
 		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+			</plugin>
+			
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
