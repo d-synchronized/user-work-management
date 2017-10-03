@@ -1,4 +1,4 @@
-package com.threaddynamics.user.task.service.swagger.config;
+package com.threaddynamics.user.task.service.config;
 
 import static springfox.documentation.builders.PathSelectors.regex;
 
