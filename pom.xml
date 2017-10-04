@@ -23,6 +23,7 @@
 		<module>user-task-service</module>
 		<module>user-service</module>
 		<module>registry-service</module>
+		<module>api-gateway</module>
 	</modules>
 
 	<repositories>
