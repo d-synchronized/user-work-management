@@ -14,12 +14,12 @@ import com.threaddynamics.commons.dto.UserDto;
 import io.swagger.annotations.Api;
 
 @RestController
-@RequestMapping(ApiConstant.API_BASE_URI + API_VERSION + "/getUserByUserId")
+@RequestMapping(ApiConstant.API_BASE_URI + API_VERSION + "/userService")
 @Api(value = "User Resource Endpoints")
 public class UserManagementController {
 	
 	@ResponseBody
-	@RequestMapping(method = RequestMethod.GET, path = "/{userId}")
+	@RequestMapping(method = RequestMethod.GET, path = "/getUserByUserId/{userId}")
 	public UserDto fetchUserDetails(@PathVariable("userId") final Long userId) {
 		UserDto user=new UserDto();
 		user.setDepartment("FS");
